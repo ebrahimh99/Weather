@@ -1,0 +1,305 @@
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+
+section {
+
+    background-color: #1E202B;
+}
+
+
+
+
+
+/* -------------------------------------- navbar  ------------------------------------------ */
+
+
+.navbar {
+    background-color: #1E202B !important;
+}
+
+.navbar .container a .logo-type h1 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbar .container a .logo-type span {
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 15px;
+
+}
+
+.navbar .container .navbar-toggler {
+    background-color: aliceblue;
+}
+
+
+
+.navbar .container .collapse ul li {
+    width: 130px;
+    border: 2px solid transparent;
+    border-radius: 20% / 50%;
+    -webkit-border-radius: 20% / 50%;
+    -moz-border-radius: 20% / 50%;
+    -ms-border-radius: 20% / 50%;
+    -o-border-radius: 20% / 50%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+
+}
+
+.navbar .container .collapse ul li:hover {
+
+    border: 2px solid #009AD8;
+
+
+}
+
+.navbar .container .collapse ul li a {
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.navbar .container .collapse ul li a:hover {
+    color: #009AD8;
+
+}
+
+
+
+
+/* -------------------------------------- section main  ------------------------------------------ */
+
+
+
+section.main {
+    background-image: url(./../images/banner.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+section.main .hero .container form.find-location input.form-control {
+    margin-left: 15px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: white !important;
+}
+
+
+section.main .hero .container form.find-location input.form-control:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+section.main .hero .container form.find-location input.form-control::placeholder {
+    color: #888;
+}
+
+section.main .hero .container form.find-location {
+    background-color: #1E202B;
+}
+
+section.main .hero .container form.find-location input.btn {
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    background-color: #009AD8;
+}
+
+
+
+
+
+
+
+
+
+
+section.main .forecast-table .container .row .card{
+    height: 400px;
+    background-color: #323544
+}
+
+section.main .forecast-table .container .row .card .day-info {
+    background-color: #2D303D;
+}
+
+section.main .forecast-table .container .row .card .degree {
+    background-color: #323544;
+
+}
+
+section.main .forecast-table .container .row .card .weather-info {
+    background-color: #323544;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section.main .forecast-table .container .row .card p.day {
+    color: #bfc1c8;
+    font-size: 14px;
+    line-height:21px ;
+    font-weight: 400;
+
+
+}
+
+section.main .forecast-table .container .row .card p.date {
+    color: #bfc1c8;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+section.main .forecast-table .container .row .card p.city {
+    color: #bfc1c8;
+    font-size:18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+section.main .forecast-table .container .row .card p.current-weather {
+    color: #ffffff;
+    font-size: 90px;
+    line-height:135px ;
+    font-weight: 700;
+}
+
+section.main .forecast-table .container .row .card p.status {
+    color: #009ad8;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+section.main .forecast-table .container .row .card p.Humidity {
+    color: #bfc1c8;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+section.main .forecast-table .container .row .card p.speed {
+    color: #bfc1c8;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+section.main .forecast-table .container .row .card p.direction {
+    color: #bfc1c8;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+}
+
+section.main .forecast-table .container .row .card p.Maximum-temperature {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+section.main .forecast-table .container .row .card p.minimum-temperature {
+    color: #bfc1c8;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+
+/* -------------------------------------- footer  ------------------------------------------ */
+
+footer {
+    background-color: #262936;
+}
+
+
+
+footer .container .row form input.form-control {
+    margin-left: 15px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    color: white !important;
+}
+
+footer .container .row form input.form-control:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+}
+
+footer .container .row form input.form-control::placeholder {
+    color: #888;
+}
+
+footer .container .row form input.btn {
+    margin: 5px;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    background-color: #009AD8;
+}
+
+footer .container .row form {
+    background-color: #1E202B;
+
+}
+
+
+
+footer .container .row .social-links a i {
+    color: #009AD8;
+    font-size: 20px;
+}
+
+footer .container .row .social-links .icon {
+
+    width: 50px;
+    height: 50px;
+    background-color: #1E202B;
+    border-radius: 50%;
+}
+
+footer .container .row .social-links .icon:hover {
+    background-color: #009AD8;
+}
+
+footer .container .row .social-links .icon:hover i {
+    color: #1E202B;
+}
